@@ -3,7 +3,7 @@ a=() # a[i] is the number of 1s in column i
 l=0  # length of a line
 lines=()
 
-# to get the length of the line and initialize an array of 0s of the same size
+# to get the length of the line and initialize an array with the first line as values
 read line
 l=${#line}
 lines+=($line)
